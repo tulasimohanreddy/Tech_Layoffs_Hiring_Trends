@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import seaborn as sns
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-
+#%pip install streamlit
 # Set page configuration to wide layout and set title and favicon
 st.set_page_config(
     page_title="Tech Layoffs & Hiring Trends Dashboard",
